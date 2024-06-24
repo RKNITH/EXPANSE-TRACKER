@@ -50,12 +50,12 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container > div {
+.inc-exp-container>div {
   flex: 1;
   text-align: center;
 }
 
-.inc-exp-container > div:first-of-type {
+.inc-exp-container>div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
@@ -149,4 +149,11 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+
+@media screen and (max-width:700px) {
+  .container {
+    max-width: 80%;
+  }
+
 }
